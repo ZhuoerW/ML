@@ -63,7 +63,7 @@ caseEmbeddings = np.identity(len(case2Idx), dtype='float32')
 word2Idx = {}
 wordEmbeddings = []
 
-fEmbeddings = open("embeddings/glove.6B.100d.txt", encoding="utf-8")
+fEmbeddings = open("glove.6B.100d.txt", encoding="utf-8")
 
 for line in fEmbeddings:
     split = line.strip().split(" ")
